@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/05/07 16:30:05.000.615,=rtl.dcp</Transaction>
+    <Transaction>2021/05/07 16:30:58.000.937,C:\Users\Tiago\Desktop\Exemplo\MenuSistema.dproj=C:\Users\Tiago\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2021/05/07 16:31:30.000.362,=C:\Users\Tiago\Desktop\Exemplo\FormMenuPrincipalUnit.pas</Transaction>
+    <Transaction>2021/05/07 16:32:24.000.745,=vcl.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

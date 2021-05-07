@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/04/11 23:31:19.000.004,=C:\Users\Tiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/12 09:17:59.000.106,=C:\Users\Tiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/12 12:46:47.000.678,=C:\Users\Tiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/05/07 15:57:46.000.349,=C:\Users\Tiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/05/07 15:58:13.000.800,C:\Users\Tiago\Desktop\Exemplo\FormLoginUnit.pas=C:\Users\Tiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/05/07 15:58:13.000.800,C:\Users\Tiago\Desktop\Exemplo\FormLoginUnit.dfm=C:\Users\Tiago\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/05/07 15:58:30.000.963,C:\Users\Tiago\Desktop\Exemplo\Exemplo.dproj=C:\Users\Tiago\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/05/07 16:10:13.000.966,=C:\Users\Tiago\Desktop\Exemplo\Unit2.pas</Transaction>
+    <Transaction>2021/05/07 16:10:41.000.861,C:\Users\Tiago\Desktop\Exemplo\FormMenuPrincipalUnit.dfm=C:\Users\Tiago\Desktop\Exemplo\Unit2.dfm</Transaction>
+    <Transaction>2021/05/07 16:10:41.000.861,C:\Users\Tiago\Desktop\Exemplo\FormMenuPrincipalUnit.pas=C:\Users\Tiago\Desktop\Exemplo\Unit2.pas</Transaction>
+    <Transaction>2021/05/07 16:28:12.000.597,C:\Users\Tiago\Desktop\Exemplo\FormMenuPrincipalUnit.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

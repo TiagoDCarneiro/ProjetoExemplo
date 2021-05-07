@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{002BFC91-D91D-4127-B159-3AC768FE2E91}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Exemplo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MenuSistema.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Exemplo">
+        <MSBuild Projects="Exemplo.dproj"/>
+    </Target>
+    <Target Name="Exemplo:Clean">
+        <MSBuild Projects="Exemplo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Exemplo:Make">
+        <MSBuild Projects="Exemplo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MenuSistema">
+        <MSBuild Projects="MenuSistema.dproj"/>
+    </Target>
+    <Target Name="MenuSistema:Clean">
+        <MSBuild Projects="MenuSistema.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MenuSistema:Make">
+        <MSBuild Projects="MenuSistema.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Exemplo;MenuSistema"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Exemplo:Clean;MenuSistema:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Exemplo:Make;MenuSistema:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
